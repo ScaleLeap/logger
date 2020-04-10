@@ -29,7 +29,7 @@
   "dependencies": {
     "@scaleleap/config": "1.5.1",
     "deepmerge": "4.2.2",
-    "pino": "5.17.0",
+    "pino": "6.1.1",
     "pino-debug": "1.3.0",
     "pino-pretty": "3.6.1"
   },
