@@ -29,7 +29,7 @@
   "types": "lib/index.d.ts",
   "dependencies": {
     "@scaleleap/config": "1.5.1",
-    "@types/pino": "5.17.0",
+    "@types/pino": "6.0.0",
     "deepmerge": "4.2.2",
     "pino": "6.2.0",
     "pino-caller": "3.0.1",
