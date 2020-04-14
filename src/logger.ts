@@ -98,9 +98,11 @@ export function createLogger(options: Partial<LoggerOptions> = {}, config = new 
   const opts = deepmerge(loggerOptions(config), options)
   let logger = pino(opts)
 
+  // TODO: https://github.com/DefinitelyTyped/DefinitelyTyped/issues/43882
   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
   // @ts-ignore
-  const finalLoggerHandler = finalHandler(pino(opts, pino.destination({ sync: true })))
+  const dest = pino.destination({ sync: true })
+  const finalLoggerHandler = finalHandler(pino(opts, dest))
 
   setupExitHandler(finalLoggerHandler)
 
