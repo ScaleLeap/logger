@@ -7,7 +7,7 @@ describe('log', () => {
     expect(log).toBeDefined()
   })
 
-  it('should return have pino methods', () => {
+  it('should look like pino', () => {
     expect.hasAssertions()
 
     expect(log).toHaveProperty('info')
