@@ -30,6 +30,30 @@ const log = createLogger()
 log.info('Hello world')
 ```
 
+### createTestLogger(options?: LoggerOptions)
+
+Creates a logger suitable for tests. It does not write anything to screen, and instead writes
+to a [ObjectWritableMock](https://github.com/b4nst/stream-mock).
+
+It also attaches two properties to the logger instance:
+
+ * `writableMock`: `ObjectWritableMock` instance
+ * `logLines()`: a method that parses the JSON log to a `LogDescriptor` format
+
+Example:
+
+```ts
+import { createTestLogger } from '@scaleleap/logger'
+
+const logger = createTestLogger()
+
+logger.info('foo')
+
+const logLines = logger.logLines()
+
+expect(logLines[0].msg).toBe('foo')
+```
+
 ### log
 
 An auto-instantiating logger instance.
