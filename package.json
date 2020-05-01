@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@scaleleap/config": "1.6.0",
-    "@scaleleap/semantic-release-config": "1.1.7",
+    "@scaleleap/semantic-release-config": "1.1.8",
     "@types/jest": "25.2.1",
     "@types/node": "13.13.4",
     "@types/tmp": "0.1.0",
