@@ -47,7 +47,7 @@
     "@types/jest": "26.0.12",
     "@types/node": "13.13.4",
     "@types/tmp": "0.2.0",
-    "danger": "10.4.0",
+    "danger": "10.4.1",
     "jest": "26.4.2",
     "rimraf": "3.0.2",
     "tmp-promise": "3.0.2",
