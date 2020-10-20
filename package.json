@@ -31,7 +31,7 @@
   },
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@types/pino": "6.3.2",
+    "@types/pino": "6.3.3",
     "deepmerge": "4.2.2",
     "pino": "6.7.0",
     "pino-pretty": "4.3.0",
