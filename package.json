@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@scaleleap/config": "2.0.4",
-    "@scaleleap/utils": "1.8.22",
+    "@scaleleap/utils": "1.8.23",
     "@types/jest": "26.0.14",
     "@types/node": "13.13.4",
     "@types/tmp": "0.2.0",
