@@ -38,10 +38,10 @@
     "stream-mock": "2.0.5"
   },
   "peerDependencies": {
-    "@scaleleap/config": "2.0.4"
+    "@scaleleap/config": "2.0.5"
   },
   "devDependencies": {
-    "@scaleleap/config": "2.0.4",
+    "@scaleleap/config": "2.0.5",
     "@scaleleap/utils": "1.8.23",
     "@types/jest": "26.0.15",
     "@types/node": "13.13.4",
