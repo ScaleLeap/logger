@@ -34,7 +34,7 @@
     "@types/pino": "6.3.5",
     "deepmerge": "4.2.2",
     "pino": "6.11.0",
-    "pino-pretty": "4.3.0",
+    "pino-pretty": "4.4.0",
     "stream-mock": "2.0.5"
   },
   "peerDependencies": {
