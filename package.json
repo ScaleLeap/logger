@@ -33,7 +33,7 @@
   "dependencies": {
     "@types/pino": "6.3.6",
     "deepmerge": "4.2.2",
-    "pino": "6.11.1",
+    "pino": "6.11.2",
     "pino-pretty": "4.7.1",
     "stream-mock": "2.0.5"
   },
